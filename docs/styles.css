@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-
+i {
+  background-color: red;
+  height: 50%;
+  width: 50%;
+}
 
 /* Author DIv */
 .attribution { font-size: 11px; text-align: center; }

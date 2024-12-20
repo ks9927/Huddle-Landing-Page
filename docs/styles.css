@@ -4,11 +4,31 @@
   box-sizing: border-box;
 }
 
-i {
-  background-color: red;
-  height: 50%;
-  width: 50%;
+:root {
+  /* Colors */
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+
+  /* Heading Fonts */
+  --poppins-fam: "Poppins", sans-serif;
+  --poppins-sm: 400;
+  --poppins-lg: 600;
+
+  /* Body Fonts */
+  --open-fam: "Opens Sans", sans-serif;
+  --open-sm: 400;
+
 }
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--violet);
+}
+
+
 
 /* Author DIv */
 .attribution { font-size: 11px; text-align: center; }

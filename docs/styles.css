@@ -23,12 +23,53 @@
 body {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--violet);
+  flex-direction: column;
+  background: var(--violet) url(images/bg-mobile.svg) center no-repeat;
+ 
 }
 
+.info {
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-family: var(--poppins-fam);
+}
+.description {
+  font-family: var(--open-fam);
+}
+button {
+  background-color: white;
+  color: var(--violet);
+  font-family: var(--open-fam);
+  border: solid 2px white;
+  margin-top: 1em;
+  width: 50%;
+  height: 50%;
+  border-radius: 50px;
+  padding: 1em;
+  font-weight: var(--open-sm);
+}
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+ion-icon {
+  color: white;
+  border: solid 2px white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  padding: 0.25em;
+}
+ion-icon:last-child {
+  margin-left: 0.5em;
+}
+ion-icon:first-child {
+  margin-right: 0.5em;
+}
 
 /* Author DIv */
 .attribution { font-size: 11px; text-align: center; }

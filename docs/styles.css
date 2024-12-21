@@ -27,6 +27,17 @@ body {
   background: var(--violet) url(images/bg-mobile.svg) center no-repeat;
  
 }
+.logo {
+  width: 35%;
+}
+.mockup {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
 
 .info {
   color: white;
@@ -34,9 +45,11 @@ body {
 }
 h1 {
   font-family: var(--poppins-fam);
+  margin-bottom: 0.5em;
 }
 .description {
   font-family: var(--open-fam);
+  margin-bottom: 1em;
 }
 button {
   background-color: white;
@@ -55,7 +68,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 1em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 ion-icon {
   color: white;

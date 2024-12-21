@@ -24,11 +24,14 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: var(--violet) url(images/bg-mobile.svg) center no-repeat;
+  background: var(--violet) url(images/bg-mobile.svg)  no-repeat;
+  background-position: top right;
+  background-size: contain;
  
 }
 .logo {
   width: 35%;
+  margin-top: 1.5em;
 }
 .mockup {
   width: 90%;
@@ -42,14 +45,18 @@ body {
 .info {
   color: white;
   text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 h1 {
   font-family: var(--poppins-fam);
   margin-bottom: 0.5em;
+
 }
 .description {
   font-family: var(--open-fam);
   margin-bottom: 1em;
+ 
 }
 button {
   background-color: white;

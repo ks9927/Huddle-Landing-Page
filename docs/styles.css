@@ -22,12 +22,9 @@
 
 body {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   background: var(--violet) url(images/bg-mobile.svg)  no-repeat;
   background-position: top right;
   background-size: contain;
- 
 }
 .logo {
   width: 35%;
@@ -95,3 +92,17 @@ ion-icon:first-child {
 /* Author DIv */
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width:750px) {
+  body {
+    background: var(--violet) url(images/bg-desktop.svg)  no-repeat;
+    background-position: top right;
+    background-size: contain;
+  }
+
+    .wrapper {
+      display: flex;
+    }
+
+
+}
